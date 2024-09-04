@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Virgil';
+    src: url('./assets/Virgil.woff2') format('woff2');
+  }
+
+* {
+font-family: 'Virgil';
+max-width: 100vw;
+max-height: 100vh;
+overflow: hidden;
+}
+
+.alert {
+    height: 5vh;
+}
+
+.combine{
+    width:100%;
+    height:95vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.combine > .add {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.add select {
+    margin:3vw;
+}
+
+.add p {
+    min-width:fit-content;
+    font-size:4rem;
+    margin:1vw;
+}
