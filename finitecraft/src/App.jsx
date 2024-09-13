@@ -28,7 +28,7 @@ function App() {
     return matches;
   }
 
-  let attempts = 1;
+  let attempts = 0;
 
   function handleCombine(){
     // need to extract key word lava from this string: " A possible combination of the words "fire" and "earth" could be "lava," as lava is molten rock that is formed beneath the Earth's surface and is brought to the surface during volcanic eruptions. Lava is extremely hot and can flow like a liquid, making it a fiery and earthy combination."
